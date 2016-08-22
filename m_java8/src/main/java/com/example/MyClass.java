@@ -46,5 +46,6 @@ public class MyClass {
 
         final Car police = Car.create(Car::new);
         cars.forEach(police::follow);
+
     }
 }

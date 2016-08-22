@@ -8,7 +8,10 @@
     tools:context="com.example.wss.constraintlayout.HandleActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-
+        android:text="TextView"
+        android:layout_width="60dp"
+        android:layout_height="18dp"
+        android:id="@+id/textView"
+        app:layout_constraintLeft_toRightOf="@+id/activity_handle"
+        app:layout_constraintTop_toTopOf="@+id/activity_handle" />
 </android.support.constraint.ConstraintLayout>
